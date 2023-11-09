@@ -3,6 +3,8 @@ package model;
 public class Boutique {
 	protected String nom;
 	protected Adresse adresse;
+		
+	
 	public Boutique(String nom, Adresse adresse) {
 		this.nom = nom;
 		this.adresse = adresse;
