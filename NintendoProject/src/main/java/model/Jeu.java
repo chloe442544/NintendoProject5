@@ -8,10 +8,10 @@ public class Jeu {
 	private Console console;
 	protected Boutique boutique;
 	
-	public Jeu(String titre, Console console, Boutique boutique) {
+	public Jeu(String titre, Console console) {
 		this.titre = titre;
 		this.console = console;
-		this.boutique = boutique;
+		
 	}
 
 	public String getTitre() {
