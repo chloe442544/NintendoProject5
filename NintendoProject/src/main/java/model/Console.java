@@ -13,6 +13,11 @@ public abstract class Console {
 		this.prix = prix;
 		this.dateSortie = LocalDate.parse(dateSortie);
 	}
+	public Console(String nom, double prix, LocalDate dateSortie) {
+		this.nom = nom;
+		this.prix = prix;
+		this.dateSortie = dateSortie;
+	}
 
 	public String getNom() {
 		return nom;
